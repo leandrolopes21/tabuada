@@ -133,59 +133,6 @@
 
         }
 
-        // Meu código original abaixo
-
-        /* var bt1 = document.getElementById('bt1')
-        var bt2 = document.getElementById('bt2')
-        var num = document.getElementById('num').value
-        var resposta = document.getElementById('resposta')
-
-        bt2.disabled = true
-
-        function verificar() {
-
-            num = document.getElementById('num').value
-            resposta = document.getElementById('resposta')            
-
-            if (num.trim() == '') {
-
-                resposta.innerHTML = 'Sem dados digitados!'                
-                bt1.disabled = true
-                bt2.disabled = false
-                num.disabled = true
-
-            } else {
-
-                calcular()
-                num.disabled = true
-                bt1.disabled = true
-                bt2.disabled = false
-                num.disabled = true
-
-            }
-
-        }
-
-        function calcular() {
-
-            var num = document.getElementById('num')
-            var resposta = document.getElementById('resposta')
-
-            var valor = Number(num.value)
-
-            for (var i = 1; i <= 10; i++) {
-                var res = valor * i
-                var lista = document.createElement('li')
-                lista.textContent = `${valor} x ${i} = ${res}`
-                resposta.appendChild(lista)
-            }
-
-        }
-
-        var semMarker = document.getElementById('resposta') // Cria a variável serMarker e faz ligação dela com o item HTML ul com id='resposta'
-
-        semMarker.classList.add('no-marker') // Chama a classe no-marker definida no CSS */
-
     </script>
 </body>
 </html>
