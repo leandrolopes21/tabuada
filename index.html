@@ -34,6 +34,11 @@
 
         }
 
+        h1 {
+            margin: auto;
+            padding-bottom: 20px;
+        }
+
         input#num, #bt1, #bt2 {
 
             width: 60px;
@@ -47,6 +52,7 @@
         }
 
         .no-marker {
+            margin: 10px;            
             list-style-type: none;
         }
     </style>
@@ -129,6 +135,8 @@
             num.disabled = false
             bt1.disabled = false
             bt2.disabled = true
+
+            num.focus()
 
 
         }
